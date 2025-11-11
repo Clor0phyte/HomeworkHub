@@ -43,12 +43,6 @@ body {
     color: #e4c3c3;
     border-radius: 15px;
 }
-h1 {
-    text-align: center;
-    color: #e4c3c3;
-    font-size: 96px;
-    margin-bottom: 40px;
-}
 
 .card:hover {
     transform: scale(1.05);
@@ -64,3 +58,37 @@ h1 {
     color: #ebc7c7;
     background-color:#6d3838;
 }
+
+.sticker-container {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .sticker-container h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    color: #e4c3c3;
+    font-size: 120px;
+    margin-bottom: 40px;
+  }
+
+  .sticker {
+    position: sticky;
+    margin-top: 70px;
+    transform: translateX(-60%) rotate(-12deg);
+    width: 100px;
+    height: 100px;
+    z-index: 2;   
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2)); 
+  }
+
+  .sticker:hover {
+    transform: translateX(-60%) rotate(-12deg) scale(1.1);
+    transition: transform 0.3s;
+    background-image: url("images/Sparkle2.png");
+  }
