@@ -1,26 +1,85 @@
+body {  
+    background-color: #715760;
+    font-family: Arial, sans-serif;
+    color: #e4c3c3;
+}
+
 section {
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
     justify-items: center;
+    font-size: 30px;
 }
 
 form {
     margin: 20px;
     padding: 20px;
     display: flex;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    border-radius: 15px;
+    background-color: #553e50;
     text-align: center;
     flex-direction: column;
     width: 300px;
-    height: 400px;
+    height: auto;
+
 }
 
 input[type="text"] {
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
+
+label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #715760;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.2);
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #553e50;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.choos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0pxs;
+    font-size: 20px ;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.5);
+}
+
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
