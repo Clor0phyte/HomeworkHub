@@ -10,3 +10,12 @@ p {
 strong {
     color: #e7b324;
 }
+
+.class-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-text small {
+    color: #e4c3c3;
+}
