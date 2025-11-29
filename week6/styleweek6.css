@@ -19,3 +19,10 @@ strong {
 .card-text small {
     color: #e4c3c3;
 }
+
+h1 {
+    color: #e4c3c3;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
