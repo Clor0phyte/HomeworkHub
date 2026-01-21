@@ -5,19 +5,19 @@ function Calculator() {
 
     switch (operation){
         case "+":
-            alert(`Result: ${Number(a) + Number(b)}`);
+            alert("Result:" + (Number(a) + Number(b)));
             break;
         case "-":
-            alert(`Result: ${Number(a) - Number(b)}`);
+            alert("Result:" + (Number(a) - Number(b)));
             break;
         case "*":
-            alert(`Result: ${Number(a) * Number(b)}`);
+            alert("Result:" + (Number(a) * Number(b)));
             break;
         case "/":
             if (b == 0) {
                 alert("Error: Division by zero");
             } else {
-                alert(`Result: ${Number(a) / Number(b)}`);
+                alert("Result:" + (Number(a) / Number(b)));
             }
             break;
         default:
