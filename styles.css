@@ -91,3 +91,49 @@ body {
     transform: translateX(-60%) rotate(-12deg) scale(1.1);
     transition: transform 0.3s;
   }
+
+#btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #9c4d4d;
+    color: #e4c3c3;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+}
+#btn:hover {
+    background-color: #6d3838;
+}   
+
+.dark-body {
+    background-color: #241613;
+}
+
+.dark-card {
+    background: #402523;
+}
+
+.dark-card h2 {
+    background-color: #803433;
+}
+
+.dark-card:hover {
+    background: #2D1711 ;
+    outline-color: #C7B8B7;
+}
+
+.dark-card-link a {
+    color: #C7B8B7;
+}
+
+.dark-card-link a:hover {
+    color: #E8D6D5;
+    background-color:#512928;
+}
+
+.dark-sticker-container h1 {
+    color: #C7B8B7;
+}
