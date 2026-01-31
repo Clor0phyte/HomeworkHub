@@ -1,0 +1,69 @@
+body {
+    background-color: #715760;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-content: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#notelist {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #553e50;
+    border-radius: 10px;
+}
+
+input[type="text"], textarea {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    align-content: center;
+    margin: 0 auto;
+} 
+
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+section {
+    background-color: #6f4e5c;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    width: 300px;
+    height: auto;
+    align-content: center;
+}
+
+button {
+    background-color: #9c4d4d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    align-self: center;
+}
