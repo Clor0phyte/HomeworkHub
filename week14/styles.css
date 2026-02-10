@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #715760;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #e4c3c3;
+    font-size: 36px;
+    background-color:#9c4d4d;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+#addBtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9c4d4d;
+    color: #e4c3c3;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#clear {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9c4d4d;
+    color: #e4c3c3;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: #6d3838;
+}
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#taskList li {
+    background-color: #553e50;
+    color: #e4c3c3;
+    padding: 10px;      
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#taskList button {
+    background-color: #9c4d4d;
+    color: #e4c3c3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#taskList input[type="checkbox"] {
+    margin-right: 10px;
+}
